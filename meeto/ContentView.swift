@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var eventStore = EventStore.shared
+    @State private var text = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            TextField("Please enter...", text: $text)
+            Button(action: {
+                BluetoothManager.shared.write(str: text)
+            }) {
+                Text("Write")
+            }
+            Button(action: {
+                BluetoothManager.shared.scan()
+            }) {
+                Text("Scan")
+            }
+            RefreshButton()
+            Text("Hello, world!")
+                .padding()
+            EventList()
+        }.environmentObject(eventStore)
     }
 }
 

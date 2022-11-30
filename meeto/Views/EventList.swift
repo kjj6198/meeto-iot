@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct EventList: View {
+    @EnvironmentObject var eventStore: EventStore
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            List {
+                if eventStore.events?.isEmpty ?? true {
+                    Text("There is no event")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+                } else {
+                    ForEach(eventStore.events!, id: \.self) { event in
+                        VStack(alignment: .leading) {
+                            Text(event.title).font(.headline)
+                            Text("\(event.startDate) - \(event.endDate)").font(.caption)
+                        }
+                    }
+                }
+                
+            }.listStyle(.inset)
+            
+        }
+        
     }
 }
 

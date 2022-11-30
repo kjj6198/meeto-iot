@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6690B4D2827E68000C39312 /* BackgroundTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6690B4C2827E68000C39312 /* BackgroundTimer.swift */; };
 		F6F7F5562827C812004334D2 /* meetoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5552827C812004334D2 /* meetoApp.swift */; };
 		F6F7F5582827C812004334D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5572827C812004334D2 /* ContentView.swift */; };
 		F6F7F55A2827C813004334D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F7F5592827C813004334D2 /* Assets.xcassets */; };
@@ -14,6 +15,13 @@
 		F6F7F5682827C813004334D2 /* meetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5672827C813004334D2 /* meetoTests.swift */; };
 		F6F7F5722827C813004334D2 /* meetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5712827C813004334D2 /* meetoUITests.swift */; };
 		F6F7F5742827C813004334D2 /* meetoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5732827C813004334D2 /* meetoUITestsLaunchTests.swift */; };
+		F6F7F5812827C872004334D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6F7F5802827C872004334D2 /* Info.plist */; };
+		F6F7F5852827C8FB004334D2 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F7F5832827C8F2004334D2 /* EventKit.framework */; };
+		F6F7F5892827C9F2004334D2 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5882827C9F2004334D2 /* EventStore.swift */; };
+		F6F7F59B2827CA58004334D2 /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F59A2827CA58004334D2 /* TimeInterval+Extension.swift */; };
+		F6F7F59D2827D7E7004334D2 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F59C2827D7E7004334D2 /* BLEManager.swift */; };
+		F6F7F5A02827DC72004334D2 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F59F2827DC72004334D2 /* RefreshButton.swift */; };
+		F6F7F5A22827E032004334D2 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5A12827E032004334D2 /* EventList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6690B4C2827E68000C39312 /* BackgroundTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTimer.swift; sourceTree = "<group>"; };
 		F6F7F5522827C812004334D2 /* meeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meeto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F7F5552827C812004334D2 /* meetoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetoApp.swift; sourceTree = "<group>"; };
 		F6F7F5572827C812004334D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,13 @@
 		F6F7F56D2827C813004334D2 /* meetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F7F5712827C813004334D2 /* meetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetoUITests.swift; sourceTree = "<group>"; };
 		F6F7F5732827C813004334D2 /* meetoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6F7F5802827C872004334D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F7F5832827C8F2004334D2 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F6F7F5882827C9F2004334D2 /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		F6F7F59A2827CA58004334D2 /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extension.swift"; sourceTree = "<group>"; };
+		F6F7F59C2827D7E7004334D2 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		F6F7F59F2827DC72004334D2 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		F6F7F5A12827E032004334D2 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F7F5852827C8FB004334D2 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 				F6F7F5662827C813004334D2 /* meetoTests */,
 				F6F7F5702827C813004334D2 /* meetoUITests */,
 				F6F7F5532827C812004334D2 /* Products */,
+				F6F7F5822827C8F2004334D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +113,17 @@
 		F6F7F5542827C812004334D2 /* meeto */ = {
 			isa = PBXGroup;
 			children = (
+				F6F7F59E2827DC6A004334D2 /* Views */,
+				F6F7F5992827CA44004334D2 /* extensions */,
+				F6F7F5802827C872004334D2 /* Info.plist */,
 				F6F7F5552827C812004334D2 /* meetoApp.swift */,
 				F6F7F5572827C812004334D2 /* ContentView.swift */,
 				F6F7F5592827C813004334D2 /* Assets.xcassets */,
 				F6F7F55E2827C813004334D2 /* meeto.entitlements */,
 				F6F7F55B2827C813004334D2 /* Preview Content */,
+				F6F7F5882827C9F2004334D2 /* EventStore.swift */,
+				F6F7F59C2827D7E7004334D2 /* BLEManager.swift */,
+				F6690B4C2827E68000C39312 /* BackgroundTimer.swift */,
 			);
 			path = meeto;
 			sourceTree = "<group>";
@@ -127,6 +151,31 @@
 				F6F7F5732827C813004334D2 /* meetoUITestsLaunchTests.swift */,
 			);
 			path = meetoUITests;
+			sourceTree = "<group>";
+		};
+		F6F7F5822827C8F2004334D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F5832827C8F2004334D2 /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6F7F5992827CA44004334D2 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F59A2827CA58004334D2 /* TimeInterval+Extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		F6F7F59E2827DC6A004334D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F59F2827DC72004334D2 /* RefreshButton.swift */,
+				F6F7F5A12827E032004334D2 /* EventList.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +284,7 @@
 			files = (
 				F6F7F55D2827C813004334D2 /* Preview Assets.xcassets in Resources */,
 				F6F7F55A2827C813004334D2 /* Assets.xcassets in Resources */,
+				F6F7F5812827C872004334D2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6690B4D2827E68000C39312 /* BackgroundTimer.swift in Sources */,
+				F6F7F5A22827E032004334D2 /* EventList.swift in Sources */,
 				F6F7F5582827C812004334D2 /* ContentView.swift in Sources */,
 				F6F7F5562827C812004334D2 /* meetoApp.swift in Sources */,
+				F6F7F5A02827DC72004334D2 /* RefreshButton.swift in Sources */,
+				F6F7F59D2827D7E7004334D2 /* BLEManager.swift in Sources */,
+				F6F7F5892827C9F2004334D2 /* EventStore.swift in Sources */,
+				F6F7F59B2827CA58004334D2 /* TimeInterval+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +478,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"meeto/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Get data from BLE";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Access bluetooth";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To access shard calendar";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For calendar data";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -447,7 +508,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"meeto/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Get data from BLE";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Access bluetooth";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To access shard calendar";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For calendar data";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

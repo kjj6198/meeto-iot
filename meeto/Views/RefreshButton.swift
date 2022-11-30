@@ -7,14 +7,21 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct RefreshButton: View {
+    
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Refresh") {
+            
+        }
+        .font(.headline)
+        .padding([.leading, .trailing], 12.0)
+        .cornerRadius(5.0)
     }
 }
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        RefreshButton()
     }
 }
