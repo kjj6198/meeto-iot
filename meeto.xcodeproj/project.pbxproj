@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6F7F5562827C812004334D2 /* meetoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5552827C812004334D2 /* meetoApp.swift */; };
+		F6F7F5582827C812004334D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5572827C812004334D2 /* ContentView.swift */; };
+		F6F7F55A2827C813004334D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F7F5592827C813004334D2 /* Assets.xcassets */; };
+		F6F7F55D2827C813004334D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F7F55C2827C813004334D2 /* Preview Assets.xcassets */; };
+		F6F7F5682827C813004334D2 /* meetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5672827C813004334D2 /* meetoTests.swift */; };
+		F6F7F5722827C813004334D2 /* meetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5712827C813004334D2 /* meetoUITests.swift */; };
+		F6F7F5742827C813004334D2 /* meetoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7F5732827C813004334D2 /* meetoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6F7F5642827C813004334D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F7F54A2827C812004334D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F7F5512827C812004334D2;
+			remoteInfo = meeto;
+		};
+		F6F7F56E2827C813004334D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F7F54A2827C812004334D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F7F5512827C812004334D2;
+			remoteInfo = meeto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6F7F5522827C812004334D2 /* meeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meeto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F7F5552827C812004334D2 /* meetoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetoApp.swift; sourceTree = "<group>"; };
+		F6F7F5572827C812004334D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6F7F5592827C813004334D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6F7F55C2827C813004334D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6F7F55E2827C813004334D2 /* meeto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meeto.entitlements; sourceTree = "<group>"; };
+		F6F7F5632827C813004334D2 /* meetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F7F5672827C813004334D2 /* meetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetoTests.swift; sourceTree = "<group>"; };
+		F6F7F56D2827C813004334D2 /* meetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F7F5712827C813004334D2 /* meetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetoUITests.swift; sourceTree = "<group>"; };
+		F6F7F5732827C813004334D2 /* meetoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F7F54F2827C812004334D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F7F5602827C813004334D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F7F56A2827C813004334D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6F7F5492827C812004334D2 = {
+			isa = PBXGroup;
+			children = (
+				F6F7F5542827C812004334D2 /* meeto */,
+				F6F7F5662827C813004334D2 /* meetoTests */,
+				F6F7F5702827C813004334D2 /* meetoUITests */,
+				F6F7F5532827C812004334D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F7F5532827C812004334D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F5522827C812004334D2 /* meeto.app */,
+				F6F7F5632827C813004334D2 /* meetoTests.xctest */,
+				F6F7F56D2827C813004334D2 /* meetoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F7F5542827C812004334D2 /* meeto */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F5552827C812004334D2 /* meetoApp.swift */,
+				F6F7F5572827C812004334D2 /* ContentView.swift */,
+				F6F7F5592827C813004334D2 /* Assets.xcassets */,
+				F6F7F55E2827C813004334D2 /* meeto.entitlements */,
+				F6F7F55B2827C813004334D2 /* Preview Content */,
+			);
+			path = meeto;
+			sourceTree = "<group>";
+		};
+		F6F7F55B2827C813004334D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F55C2827C813004334D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6F7F5662827C813004334D2 /* meetoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F5672827C813004334D2 /* meetoTests.swift */,
+			);
+			path = meetoTests;
+			sourceTree = "<group>";
+		};
+		F6F7F5702827C813004334D2 /* meetoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7F5712827C813004334D2 /* meetoUITests.swift */,
+				F6F7F5732827C813004334D2 /* meetoUITestsLaunchTests.swift */,
+			);
+			path = meetoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F7F5512827C812004334D2 /* meeto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F7F5772827C813004334D2 /* Build configuration list for PBXNativeTarget "meeto" */;
+			buildPhases = (
+				F6F7F54E2827C812004334D2 /* Sources */,
+				F6F7F54F2827C812004334D2 /* Frameworks */,
+				F6F7F5502827C812004334D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meeto;
+			productName = meeto;
+			productReference = F6F7F5522827C812004334D2 /* meeto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6F7F5622827C813004334D2 /* meetoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F7F57A2827C813004334D2 /* Build configuration list for PBXNativeTarget "meetoTests" */;
+			buildPhases = (
+				F6F7F55F2827C813004334D2 /* Sources */,
+				F6F7F5602827C813004334D2 /* Frameworks */,
+				F6F7F5612827C813004334D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F7F5652827C813004334D2 /* PBXTargetDependency */,
+			);
+			name = meetoTests;
+			productName = meetoTests;
+			productReference = F6F7F5632827C813004334D2 /* meetoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6F7F56C2827C813004334D2 /* meetoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F7F57D2827C813004334D2 /* Build configuration list for PBXNativeTarget "meetoUITests" */;
+			buildPhases = (
+				F6F7F5692827C813004334D2 /* Sources */,
+				F6F7F56A2827C813004334D2 /* Frameworks */,
+				F6F7F56B2827C813004334D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F7F56F2827C813004334D2 /* PBXTargetDependency */,
+			);
+			name = meetoUITests;
+			productName = meetoUITests;
+			productReference = F6F7F56D2827C813004334D2 /* meetoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F7F54A2827C812004334D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F6F7F5512827C812004334D2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					F6F7F5622827C813004334D2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F6F7F5512827C812004334D2;
+					};
+					F6F7F56C2827C813004334D2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F6F7F5512827C812004334D2;
+					};
+				};
+			};
+			buildConfigurationList = F6F7F54D2827C812004334D2 /* Build configuration list for PBXProject "meeto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6F7F5492827C812004334D2;
+			productRefGroup = F6F7F5532827C812004334D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F7F5512827C812004334D2 /* meeto */,
+				F6F7F5622827C813004334D2 /* meetoTests */,
+				F6F7F56C2827C813004334D2 /* meetoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F7F5502827C812004334D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F7F55D2827C813004334D2 /* Preview Assets.xcassets in Resources */,
+				F6F7F55A2827C813004334D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F7F5612827C813004334D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F7F56B2827C813004334D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F7F54E2827C812004334D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F7F5582827C812004334D2 /* ContentView.swift in Sources */,
+				F6F7F5562827C812004334D2 /* meetoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F7F55F2827C813004334D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F7F5682827C813004334D2 /* meetoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F7F5692827C813004334D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F7F5722827C813004334D2 /* meetoUITests.swift in Sources */,
+				F6F7F5742827C813004334D2 /* meetoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6F7F5652827C813004334D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F7F5512827C812004334D2 /* meeto */;
+			targetProxy = F6F7F5642827C813004334D2 /* PBXContainerItemProxy */;
+		};
+		F6F7F56F2827C813004334D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F7F5512827C812004334D2 /* meeto */;
+			targetProxy = F6F7F56E2827C813004334D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6F7F5752827C813004334D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6F7F5762827C813004334D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F6F7F5782827C813004334D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meeto/meeto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meeto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kalan.meeto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6F7F5792827C813004334D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meeto/meeto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meeto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kalan.meeto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F6F7F57B2827C813004334D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kalan.meetoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meeto.app/Contents/MacOS/meeto";
+			};
+			name = Debug;
+		};
+		F6F7F57C2827C813004334D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kalan.meetoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meeto.app/Contents/MacOS/meeto";
+			};
+			name = Release;
+		};
+		F6F7F57E2827C813004334D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kalan.meetoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = meeto;
+			};
+			name = Debug;
+		};
+		F6F7F57F2827C813004334D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kalan.meetoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = meeto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F7F54D2827C812004334D2 /* Build configuration list for PBXProject "meeto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F7F5752827C813004334D2 /* Debug */,
+				F6F7F5762827C813004334D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F7F5772827C813004334D2 /* Build configuration list for PBXNativeTarget "meeto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F7F5782827C813004334D2 /* Debug */,
+				F6F7F5792827C813004334D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F7F57A2827C813004334D2 /* Build configuration list for PBXNativeTarget "meetoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F7F57B2827C813004334D2 /* Debug */,
+				F6F7F57C2827C813004334D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F7F57D2827C813004334D2 /* Build configuration list for PBXNativeTarget "meetoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F7F57E2827C813004334D2 /* Debug */,
+				F6F7F57F2827C813004334D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6F7F54A2827C812004334D2 /* Project object */;
+}
