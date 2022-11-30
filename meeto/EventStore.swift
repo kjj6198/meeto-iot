@@ -10,8 +10,7 @@ class EventStore: ObservableObject {
     
     private var subscribers: Set<AnyCancellable> = []
 
-    private let identifier = "14AA4522-C4C5-4315-99F0-6DA2D6853273" // real
-//    private let identifier = "D17C1FE1-3F66-42DA-BC1F-73540F27A875" // testing
+    private let identifier = "YOUR_CALENDAR_IDENTIFIER" 
     
     let eventStore = EKEventStore()
     
