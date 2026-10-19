@@ -1,3 +1,7 @@
+# Meeto
+
+Shows your next macOS Calendar event on an OLED screen over Bluetooth LE, with a buzzer reminder.
+
 ## Summary
 
 This small SwiftUI project integrates [EventStore](https://developer.apple.com/documentation/eventkit/ekeventstore) and CoreBluetooth to send notification to your IoT device. In this case I'm using oLED to display next event and adding a buzzer to notify me.
